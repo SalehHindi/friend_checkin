@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import exploreImage from './quote-message-solid.png';
-import trackMoodImage from './emoji.png';
-import exploreActivities from './book-solid.png';
+import exploreImage from './sessions.png';
+import trackMoodImage from './mood.png';
+import exploreActivities from './activites.png';
+import homeImage from './Home.png';
 
 const Home = () => {
   return (
@@ -28,7 +29,7 @@ const Home = () => {
       </div>
       <nav className="navbar">
         <Link to="/" className="navbar-button">
-          <img src={exploreImage} alt="Home" />
+          <img src={homeImage} alt="Home" />
           <span>Home</span>
         </Link>
         <Link to="/transcriptions" className="navbar-button">
@@ -36,11 +37,11 @@ const Home = () => {
           <span>Sessions</span>
         </Link>
         <Link className="navbar-button">
-          <img src={exploreImage} alt="Mood Analysis" />
+          <img src={trackMoodImage} alt="Mood Analysis" />
           <span>Mood Analysis</span>
         </Link>
         <Link className="navbar-button">
-          <img src={exploreImage} alt="Activities" />
+          <img src={exploreActivities} alt="Activities" />
           <span>Activities</span>
         </Link>
       </nav>
