@@ -35,7 +35,7 @@
   flex-direction: column;
   margin-bottom: 20px;
   background-color: white;
-  border: 2px solid #D0E1CD;
+  border: 5px solid #D0E1CD;
   border-radius: 34px;
   padding: 10px;
   width: 94%;
@@ -54,7 +54,7 @@
   flex-direction: column;
   align-items: center;
   background-color: white;
-  border: 2px solid #EED5D5;
+  border: 5px solid #EED5D5;
   border-radius: 34px;
   padding: 10px;
   width: 48%;
@@ -62,7 +62,7 @@
 }
 
 .button-right {
-  border: 2px solid #CEDEE7;
+  border: 5px solid #CEDEE7;
 }
 
 button img {
