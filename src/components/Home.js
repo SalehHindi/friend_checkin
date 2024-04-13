@@ -11,7 +11,7 @@ const Home = () => {
       <div className="main">
         <h1>What would you like to do?</h1>
         <div className="button-groups">
-          <Link to="/transcriptions" className="top-button">
+          <Link to="/transcripts" className="top-button">
             <img src={exploreImage} alt="Explore Previous Sessions" />
             <span>Explore Previous Sessions</span>
           </Link>
