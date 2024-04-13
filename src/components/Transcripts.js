@@ -50,7 +50,7 @@ const Transcripts = () => {
             </div>
 
             <div className=" transcript-item">
-              <p>In this discussion, you seemed to begin to feel sad when you mentioned your childhood</p>
+              <p>In this discussion, you seemed to begin to feel sad when you mentioned your childhood. In this discussion, you seemed to begin to feel sad when you mentioned your childhood In this discussion, you seemed to begin to feel sad when you mentioned your childhood In this discussion, you seemed to begin to feel sad when you mentioned your childhood In this discussion, you seemed to begin to feel sad when you mentioned your childhood In this discussion, you seemed to begin to feel sad when you mentioned your childhood In this discussion, you seemed to begin to feel sad when you mentioned your childhood In this discussion, you seemed to begin to feel sad when you mentioned your childhood</p>
             </div>
           </div>
 
