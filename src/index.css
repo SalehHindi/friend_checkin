@@ -1,10 +1,11 @@
 .home {
   position: relative;
   background-color: rgba(253, 238, 215, 0.5); /* Semi-transparent background color */
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: auto;
 }
 
 .home::before {
@@ -29,7 +30,7 @@
   width: 100%;
   height: 70%;
   margin-bottom: 0;
-  margin-top: auto;
+  margin-top: 147px;
 }
 
 .button-groups {
@@ -122,4 +123,66 @@ button span {
 
 .navbar-button span {
   font-size: 12px;
+}
+
+.data-bar {
+  width: 100%;
+  background-color: olive;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.date-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.date-item {
+  background-color: white;
+  padding: 5px;
+  margin: 0 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.date-day {
+  font-size: 14px;
+}
+
+.transcript-list {
+  height: calc(100%); /* Adjust height as needed */
+}
+
+.transcript-item {
+  background-color: #f2f2f2;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.transcript-header {
+  display: flex;
+  align-items: center;
+}
+
+.transcript-header img {
+  margin-right: 10px;
+  width: 32px;
+}
+
+
+.transcript-group {
+  margin: 45px 0;
 }

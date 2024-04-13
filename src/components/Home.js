@@ -32,7 +32,7 @@ const Home = () => {
           <img src={homeImage} alt="Home" />
           <span>Home</span>
         </Link>
-        <Link to="/transcriptions" className="navbar-button">
+        <Link to="/transcripts" className="navbar-button">
           <img src={exploreImage} alt="Sessions" />
           <span>Sessions</span>
         </Link>
