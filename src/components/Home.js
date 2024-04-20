@@ -9,24 +9,10 @@ const Home = () => {
   return (
     <div className="home">
       <div className="main">
-        <h1>What would you like to do?</h1>
-        <div className="button-groups">
-          <Link to="/transcripts" className="top-button">
-            <img src={exploreImage} alt="Explore Previous Sessions" />
-            <span>Explore Previous Sessions</span>
-          </Link>
-          <div className="bottom-buttons">
-            <button className="bottom-button">
-              <img src={trackMoodImage} alt="Track Mood" />
-              <span>Track Mood</span>
-            </button>
-            <button className="bottom-button button-right">
-              <img src={exploreActivities} alt="Explore Activities" />
-              <span>Explore Activities</span>
-            </button>
-          </div>
-        </div>
+
+
       </div>
+
       <nav className="navbar">
         <Link to="/" className="navbar-button">
           <img src={homeImage} alt="Home" />
