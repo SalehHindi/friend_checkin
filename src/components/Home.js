@@ -9,6 +9,15 @@ const Home = () => {
   return (
     <div className="home">
       <div className="main">
+        <div>
+          <h1>Create New Group</h1>
+          <button class="button" onclick="alert('Button clicked!')">
+            <img src="image.jpg"/>
+          <div class="overlay">
+              <div class="overlay-content">Click me</div>
+          </div>
+</button>
+        </div>
 
 
       </div>
@@ -17,18 +26,6 @@ const Home = () => {
         <Link to="/" className="navbar-button">
           <img src={homeImage} alt="Home" />
           <span>Home</span>
-        </Link>
-        <Link to="/transcripts" className="navbar-button">
-          <img src={exploreImage} alt="Sessions" />
-          <span>Sessions</span>
-        </Link>
-        <Link className="navbar-button">
-          <img src={trackMoodImage} alt="Mood Analysis" />
-          <span>Mood Analysis</span>
-        </Link>
-        <Link className="navbar-button">
-          <img src={exploreActivities} alt="Activities" />
-          <span>Activities</span>
         </Link>
       </nav>
     </div>
